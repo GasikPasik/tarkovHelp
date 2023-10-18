@@ -1,0 +1,20 @@
+.target{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+
+    border-radius: 50%;
+
+    animation-name: resize;
+    animation-timing-function: linear;
+
+}  
+
+@keyframes resize {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0);
+    }
+  }

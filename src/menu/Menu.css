@@ -1,0 +1,59 @@
+.a_nav_button-enter {
+  opacity: 0;
+}
+
+.a_nav_button-enter-active {
+  opacity: 1;
+  transition: opacity 0.15s ease-in-out;
+}
+
+.a_nav_button-exit {
+  opacity: 1;
+}
+
+.a_nav_button-exit-active {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+
+
+.a_burger-enter {
+  transform: translateX(100px);
+}
+
+.a_burger-enter-active {
+  transform: translateX(0px);
+  transition: transform 0.3s;
+}
+
+.a_burger-exit {
+  transform: translateX(0px);
+}
+
+.a_burger-exit-active {
+  transform: translateX(100px);
+  transition: transform 0.5s;
+}
+  
+
+
+
+.a_panel_burger-enter {
+  transform: translateX(100%);
+}
+
+.a_panel_burger-enter-active {
+  transform: translateX(0px);
+  transition: transform 0.3s;
+}
+
+.a_panel_burger-exit {
+  transform: translateX(0px);
+}
+
+.a_panel_burger-exit-active {
+  transform: translateX(100%);
+  transition: transform 0.3s;
+}
+  

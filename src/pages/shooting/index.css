@@ -1,0 +1,19 @@
+
+.screen-game-enter {
+    transform: translateY(-100vh);
+}
+  
+.screen-game-enter-active {
+    transform: translateY(0px);
+    transition: transform 0.3s;
+}
+  
+.screen-game-exit {
+    transform: translateY(0px);
+}
+  
+.screen-game-exit-active {
+    transform: translateY(100vh);
+    transition: transform 0.5s;
+}
+    

@@ -1,0 +1,80 @@
+.burger{
+  display: flex;
+
+  
+  height: 100%;
+  width: 100%;
+  
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+.strip_list {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  gap: 5px;
+  height: 60%;
+  width: 35px;
+}
+
+.strip_list:hover > div{
+  background-color: var(--color-purple-light);
+}
+
+.strip{
+  height: auto;
+  width: auto;
+  background-color: white;
+  width: 35px;
+  height: 15%;
+}
+
+
+.bg_exit {
+  position: fixed; 
+  top: 0;
+  left: 0; 
+
+  height: 100vh; 
+  width: 100vw;
+  z-index: 95;
+
+}
+
+.panel_burger{
+  position: fixed; 
+  top: 0;
+  right: 0; 
+
+  height: 100vh; 
+  z-index: 100;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 5%;
+  
+  background-color: rgba(10, 10, 10, 0.9);
+}
+
+.panel_burger_button_list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3%;
+
+  width: 100%;
+  height: 100%;
+}
+
+.panel_burger_button_list > *{
+  height: 5%;
+}
+

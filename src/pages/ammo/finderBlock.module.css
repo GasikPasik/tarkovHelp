@@ -1,0 +1,11 @@
+.finder_div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.div_button{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
