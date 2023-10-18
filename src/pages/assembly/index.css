@@ -1,0 +1,25 @@
+.clicking-enter {
+  opacity: 0;
+}
+
+.clicking-enter-active {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.clicking-enter-done {
+  opacity: 1;
+}
+
+.clicking-exit {
+  opacity: 1;
+}
+
+.clicking-exit-active {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.clicking-exit-done {
+  opacity: 0;
+}

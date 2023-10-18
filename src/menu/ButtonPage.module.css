@@ -1,0 +1,23 @@
+.nav_button{
+    color: white;
+    background: none;
+    border: none;
+    
+    width: 100%;
+    
+    cursor: pointer;
+}
+
+.nav_button:hover {
+   color: var(--color-purple-light);
+}
+
+#isOn {
+    background-color: var(--color-purple);
+}
+
+#isOn:hover {
+    background-color: var(--color-purple-light);
+    color: white;
+
+}

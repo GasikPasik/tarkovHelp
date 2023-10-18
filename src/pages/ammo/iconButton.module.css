@@ -1,0 +1,14 @@
+.main_div {
+    height: 35px;
+    width: 35px;
+    background-color: var(--color-grey);
+}
+
+.main_div:hover {
+    background-color: var(--color-purple-light) !important;
+}
+
+
+#isOn {
+    background-color: var(--color-purple);
+}

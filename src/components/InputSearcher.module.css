@@ -1,0 +1,15 @@
+.inputSearcher {
+    border: none;
+
+    background-color: var(--color-grey);
+    padding: 8px;
+    width: 100%;
+    color: rgba(255, 255, 255, 1);
+}
+
+.inputSearcher:focus {
+    background-color: var(--color-purple-dark);
+    
+    color: rgba(255, 255, 255, 1);
+    outline: none;
+}
